@@ -7,8 +7,7 @@
 <body>
    <center><h1>Room Booking Form</h1></center>
    <hr/><hr/>
-    <form action="../pages/payment.html" method="get">
-
+    <form action="payment.html" method="get">
         <h3>Personal Information</h3>
         <label for="fullname">Full Name:</label><br>
         <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required><br><br>
@@ -20,13 +19,13 @@
         <input type="email" id="email" name="email" placeholder="Email" required><br><br>
 
          <label for="aadhar">Upload Your Aadhar Card:</label><br>
-        <input type="file" id="aadhar" name="aadhar" accept="image/*,application/pdf" placeholder="Aadhar Card" required><br><br>
+        <input type="file" id="aadhar" name="aadhar" accept="image/*,application/pdf" placeholder="Aadhar Card" required ><br><br>
         
         <label for="photo">Upload Your Self Photo:</label><br>
-        <input type="file" id="photo" name="photo" accept="image/*" placeholder="photo" required><br><br>
-        </form>
+        <input type="file" id="photo" name="photo" accept="image/*" placeholder="photo" required ><br><br>
+        
         <h3>Booking Details</h3>
-       <form>
+       
         <label for="roomtype">Select Room Type:</label><br>
         <select id="roomtype" name="roomtype" required>
             <option value="">--Choose--</option>
@@ -40,9 +39,7 @@
             <option value="family">Family Stay Room</option>
             <option value="hall">Community Hall Stay - 10 person</option>
         </select><br><br>
-        </form>
-        <form>
-         <label for="checkin">Check-In Date:</label><br>
+         <label for="checkin" >Check-In Date:</label><br>
         <input type="date" id="checkin" name="checkin" required><br><br>
 
         <label for="checkout">Check-Out Date:</label><br>
@@ -53,7 +50,8 @@
         <label for="notes">Further Inquiry:</label><br>
         <textarea id="notes" name="notes" rows="4" cols="40"></textarea><br><br>
 
-        <input type="submit" value="Book Now and Proceed to Payment" ><br><br>
+        <input type="submit" value="Book Now and Proceed to Payment" >
+        <br><br>
         </form>
     
 </body>
