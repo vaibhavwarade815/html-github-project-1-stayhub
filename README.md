@@ -9,7 +9,7 @@ The **Stayhub** is a simple HTML-only project that allows users to:
 ## 🖼️ Project Screenshot
 ![home-page-screenshot](/images/home-page-screenshot.png)
 ## 🌐 Live Website
-👉 **Visit Now:**[]
+👉 **Visit Now:**[https://room-rent-stayhub.netlify.app/]
 ## 📄 Pages Included
 | Page | Description |
 | 'index.html' | Homepage |
