@@ -10,17 +10,21 @@ The **Stayhub** is a simple HTML-only project that allows users to:
 ![home-page-screenshot](/images/home-page-screenshot.png)
 ## 🌐 Live Website
 👉 **Visit Now:**[https://room-rent-stayhub.netlify.app/]
-## 📄 Pages Included
-| Page | Description |
-| 'index.html' | Homepage |
-| 'roominformation.html' |Room list|
-| 'roombooking.html' |Bookinf Form|
-| 'payment.html' | Payment page with UPI QR code |
-| 'about.html' |  About the Stayhub |
-| 'gallery.html' | photo added |
-|  'contact.html  '| Contact page |
-| 'login.html' | Login page for users/admin |
-| 'signup.html' | Sign Up Page |
+##  Pages Included
+
+| Page Name        | File Name        | Description                                     |
+|------------------|------------------|-------------------------------------------------|
+|  Home           | `index.html`      | Home page                |
+|  About Us       | `about.html`      | About page                     |
+|  Roombooking  | `roombooking.html`      | Roombooking                               |
+|  Contact        | `contact.html`    | Contact information                             |
+|  Gallery page  | `gallery.html`     | Room photo is added              |
+|  Login page     | `login.html`   | Login page                           |
+|  Payment        | `payment.html`    | Payment entry form                              |
+|  Roominformation  | `roominformation.html`| AC/Non-AC room types and pricing                |
+
+---
+
 ## 💡 Features
 - Simple and beginner-friendly HTML-only design  
 - Multiple functional pages (About, Booking, Payment, Login)  
